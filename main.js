@@ -12,4 +12,8 @@ function main() {
   document.getElementById("webgl").appendChild(renderer.domElement);
   renderer.render(scene, camera);
 }
+
+function generateBox(){
+    var geo = new THREE.BoxGeometry
+}
 main();
